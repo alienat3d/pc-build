@@ -1,0 +1,117 @@
+.container {
+  width: 130rem;
+  margin: 0 auto;
+}
+
+.btn {
+  display: block;
+  border-radius: 5rem;
+  padding: 1rem 3rem;
+  font-weight: 700;
+  font-size: 1.6rem;
+  color: #fff;
+}
+
+/* === HEADER === */
+.header {
+  z-index: 10;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 4rem 11rem 4rem 8rem;
+  width: 100%;
+}
+
+.header__wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__logo {
+  display: block;
+  width: 4rem;
+  height: 4rem;
+}
+
+.header__menu {
+  display: flex;
+  align-items: center;
+}
+
+.header__nav a {
+  font-size: 1.6rem;
+
+}
+
+.header__nav a:not(:last-child) {
+  margin-right: 7.1rem;
+}
+
+.header__btn {
+  margin-left: 55.3rem;
+  background: linear-gradient(94.26deg, #c89afc 9.51%, #7c6afa 90.23%);
+}
+
+/* === / HEADER === */
+
+/* === HERO === */
+.hero {
+  padding-top: 27rem;
+}
+
+.hero .container {
+  z-index: 10;
+  position: relative;
+}
+
+.hero__title {
+  margin-bottom: 5rem;
+  max-width: 76rem;
+  font-weight: 700;
+  font-size: 6.4rem;
+  line-height: 140%;
+}
+
+.hero__timer {
+  margin-bottom: 7.6rem;
+  display: flex;
+}
+
+.hero__btn {
+  background: linear-gradient(94.78deg, #df5950 11.19%, #451046 93.72%);
+}
+
+.hero__bg {
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.timer__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 10.2rem;
+  height: 11.2rem;
+  background-color: #121212;
+}
+
+.timer__item:not(:last-child) {
+  margin-right: 3rem;
+}
+
+.timer__count {
+  font-weight: 700;
+  font-size: 3.6rem;
+}
+
+.timer__text {
+  opacity: 0.4;
+  font-size: 1.6rem;
+}
+
+/* === / HERO === */
