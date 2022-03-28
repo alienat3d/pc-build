@@ -1,6 +1,7 @@
 .container {
-  width: 130rem;
+  width: 132rem;
   margin: 0 auto;
+  padding: 0 2rem;
 }
 
 .btn {
@@ -9,7 +10,15 @@
   padding: 1rem 3rem;
   font-weight: 700;
   font-size: 1.6rem;
+  line-height: 1.5;
   color: #fff;
+}
+
+.title {
+  margin-bottom: 4rem;
+  font-weight: 700;
+  font-size: 4.8rem;
+  line-height: 1.4;
 }
 
 /* === HEADER === */
@@ -42,7 +51,7 @@
 
 .header__nav a {
   font-size: 1.6rem;
-
+  line-height: 1.5;
 }
 
 .header__nav a:not(:last-child) {
@@ -71,7 +80,7 @@
   max-width: 76rem;
   font-weight: 700;
   font-size: 6.4rem;
-  line-height: 140%;
+  line-height: 1.4;
 }
 
 .hero__timer {
@@ -80,6 +89,7 @@
 }
 
 .hero__btn {
+  margin-bottom: 8.99rem;
   background: linear-gradient(94.78deg, #df5950 11.19%, #451046 93.72%);
 }
 
@@ -107,11 +117,65 @@
 .timer__count {
   font-weight: 700;
   font-size: 3.6rem;
+  line-height: 1.4;
 }
 
 .timer__text {
   opacity: 0.4;
   font-size: 1.6rem;
+  line-height: 1.4;
 }
 
 /* === / HERO === */
+
+/* === ABOUT === */
+.about {
+  padding: 20rem 0 24rem;
+}
+
+.about__wrap {
+  display: flex;
+}
+
+.about__img {
+  margin-right: 14rem;
+  width: 52.6rem;
+  height: 54.2rem;
+}
+
+.about__info {
+  padding-top: 6.9rem;
+  display: flex;
+  flex-direction: column;
+  max-width: 63.6rem;
+}
+
+.about__text {
+  font-size: 1.6rem;
+  line-height: 1.6;
+}
+
+/* === / ABOUT === */
+
+/* === FOOTER === */
+.copyright {
+  display: block;
+  padding: 2rem;
+  text-align: center;
+  font-weight: 300;
+  font-size: 1.8rem;
+}
+
+.copyright:hover .copyright__name {
+  border-color: transparent;
+  color: #7B69F9;
+}
+
+.copyright__name {
+  border-bottom: 1px solid #7B69F9;
+  font-weight: 400;
+  transition: all,
+    .5s;
+}
+
+/* === / FOOTER === */
