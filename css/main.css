@@ -58,7 +58,7 @@
   margin-right: 7.1rem;
 }
 
-.header__btn {
+.header__btn.modal__btn {
   margin-left: 55.3rem;
   background: linear-gradient(94.26deg, #c89afc 9.51%, #7c6afa 90.23%);
 }
@@ -84,7 +84,7 @@
 }
 
 .hero__timer {
-  margin-bottom: 7.6rem;
+  margin-bottom: 4.6rem;
   display: flex;
 }
 
@@ -176,6 +176,7 @@
   width: 9rem;
   height: 4.5rem;
   background-image: url('../img/half-ring-decor.svg');
+  background-repeat: no-repeat;
   transform: rotate(45deg);
 }
 
@@ -243,6 +244,7 @@
   width: 9rem;
   height: 4.5rem;
   background-image: url('../img/half-ring-decor.svg');
+  background-repeat: no-repeat;
 }
 
 .team__items {

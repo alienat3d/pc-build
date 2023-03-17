@@ -1,7 +1,8 @@
 const modalWindow = document.querySelector('.modal');
 const btnModals = document.querySelectorAll('.modal__btn');
 const modalClose = document.querySelector('.modal__close');
-const body = document.querySelector(body);
+const modalSend = document.querySelector('.modal__send');
+const body = document.querySelector('body');
 
 btnModals.forEach((item) => {
   item.addEventListener('click', () => {
@@ -20,6 +21,11 @@ modalWindow.addEventListener('click', (e) => {
 });
 
 modalClose.addEventListener('click', () => {
-  modalClose.style.display = 'none';
+  modalWindow.style.display = 'none';
   body.classList.remove('no-scroll');
 });
+
+modalSend.addEventListener('click', () => {
+  modalWindow.style.display = 'none';
+  body.classList.remove('no-scroll');
+})
