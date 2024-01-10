@@ -90,7 +90,6 @@
 
 .hero__btn {
   margin-bottom: 8.99rem;
-  background: linear-gradient(94.78deg, #df5950 11.19%, #451046 93.72%);
 }
 
 .hero__bg {
@@ -325,11 +324,6 @@
 .contact__btn {
   margin-bottom: 4.1rem;
   background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
-  transition: transform .5s;
-}
-
-.contact__btn:hover {
-  transform: scale(1.1);
 }
 
 .contact__social {
@@ -430,6 +424,11 @@
 .modal__btn {
   margin: 1.6rem auto 3rem;
   background: linear-gradient(94.78deg, #df5950 11.19%, #451046 93.72%);
+  transition: transform .5s;
+}
+
+.modal__btn:hover {
+  transform: scale(1.1);
 }
 
 /* === / MODAL === */
