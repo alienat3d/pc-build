@@ -1,5 +1,7 @@
 'use strict';
 
+// * === Simple accordion functionality. Descriptions appear under it’s title, if title has been clicked. === * \\
+
 const contents = document.querySelectorAll('.program-line__content');
 
 contents.forEach(elem => {

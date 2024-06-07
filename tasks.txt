@@ -3,29 +3,29 @@
 Сделайте так, чтобы при открытии и закрытии модального окна не было видно скачка верстки в сторону (когда пропадает скролл).
 
 ==== Day 1 ====
-https://drive.google.com/file/d/1cqwuedPhb5oPSF6RLkjXZn6Bx8FM3w6m/view?usp=sharing
-https://learn.javascript.ru/array-iteration
-https://learn.javascript.ru/searching-elements-dom
-https://learn.javascript.ru/variables
-https://habr.com/ru/company/ruvds/blog/420359/
-https://learn.javascript.ru/function-basics
-https://learn.javascript.ru/ifelse
-https://learn.javascript.ru/introduction-browser-events
-https://learn.javascript.ru/searching-elements-dom
+[] https://drive.google.com/file/d/1cqwuedPhb5oPSF6RLkjXZn6Bx8FM3w6m/view?usp=sharing
+[] https://learn.javascript.ru/array-iteration
+[] https://learn.javascript.ru/searching-elements-dom
+[] https://learn.javascript.ru/variables
+[] https://habr.com/ru/company/ruvds/blog/420359/
+[] https://learn.javascript.ru/function-basics
+[] https://learn.javascript.ru/ifelse
+[] https://learn.javascript.ru/introduction-browser-events
+[] https://learn.javascript.ru/searching-elements-dom
 
 УСЛОЖНЕННОЕ ЗАДАНИЕ
-- При открытии одного таба аккордеона реализовать закрытие всех остальных
+[✓] - При открытии одного таба аккордеона реализовать закрытие всех остальных
 
 ==== Day 2 ====
-https://www.npmjs.com/package/seamless-scroll-polyfill
-https://learn.javascript.ru/metrics-window
+[] https://www.npmjs.com/package/seamless-scroll-polyfill
+[] https://learn.javascript.ru/metrics-window
 
 УСЛОЖНЕННОЕ ЗАДАНИЕ
-- Открывать модальное окно по клику и на кнопку Заказать курс
-- Изучить ссылки под видео, добавить крестик в правый верхний угол модального окна исключительно из кода JS (картинку, символ, букву Х - не столь важно). Закрывать модальное окно по клику на этот крестик
+[✓] - Открывать модальное окно по клику и на кнопку Заказать курс
+[✓] - Изучить ссылки под видео, добавить крестик в правый верхний угол модального окна исключительно из кода JS (картинку, символ, букву Х - не столь важно). Закрывать модальное окно по клику на этот крестик
 
 ==== Day 3 ====
-https://learn.javascript.ru/datetime
+[] https://learn.javascript.ru/datetime
 
 ОБЯЗАТЕЛЬНОЕ ЗАДАНИЕ
 - Добавить массивы склонений для дней, часов и минут
@@ -34,9 +34,9 @@ https://learn.javascript.ru/datetime
 - После полного завершения таймера, когда timeRemaining <= 0 закрашивать цифры таймера красным цветом
 
 ==== Day 4 ====
-https://jsonplaceholder.typicode.com/
-https://learn.javascript.ru/fetch
-https://learn.javascript.ru/formdata
+[] https://jsonplaceholder.typicode.com/
+[] https://learn.javascript.ru/fetch
+[] https://learn.javascript.ru/formdata
 
 ОБЯЗАТЕЛЬНОЕ ЗАДАНИЕ
 - Обработать ошибки, выдавать оповещение пользователю методом alert()
@@ -48,12 +48,11 @@ https://learn.javascript.ru/formdata
 - изучить объект formData по ссылке под видео, реализовать сбор данных формы через объект formData. Для данного объекта добавить атрибуты name к элементам input
 
 == Стримы ==
-1) https://www.youtube.com/watch?v=9B6NLrECTbs
-2) https://www.youtube.com/watch?v=rrqyhPAgU_w
+[] 1) https://www.youtube.com/watch?v=9B6NLrECTbs
+[] 2) https://www.youtube.com/watch?v=rrqyhPAgU_w
 
 ==============================================
 Доп. задания по улучшению сайта:
 
 * Убрать дёрганье экрана при открытии модального окна (см. Irwas);
 * Убрать замыливание текста кнопок при ховере (см. notes.md)
-* При переносе по якорным ссылкам сделать верхний отступ чуть больше, чтобы иконка не обрезалась
