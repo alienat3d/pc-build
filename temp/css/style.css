@@ -566,6 +566,20 @@ progress::-moz-progress-value {
     display: none;
 }
 
+.modal__close {
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+  width: 5rem;
+  height: 5rem;
+  cursor: pointer;
+  transition: transform .5s;
+}
+
+.modal__close:hover {
+  transform: rotate(180deg);
+}
+
 .modal__inner {
     width: 66.3rem;
     padding: 9rem 9.5rem;
@@ -630,6 +644,8 @@ progress::-moz-progress-value {
     overflow: hidden !important;
     height: 100% !important;
 }
+
+
 
 /*сетка*/
 @media (max-width: 108em) {

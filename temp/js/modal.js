@@ -1,12 +1,12 @@
 'use strict';
 
+const body = document.querySelector('body');
 const modalWindow = document.querySelector('.modal');
-const btnModals = document.querySelectorAll('.modal__btn');
+const modalBtns = document.querySelectorAll('.modal__btn');
 const modalClose = document.querySelector('.modal__close');
 const modalSend = document.querySelector('.modal__send');
-const body = document.querySelector('body');
 
-btnModals.forEach((item) => {
+modalBtns.forEach(item => {
   item.addEventListener('click', () => {
     modalWindow.style.display = 'flex';
     body.classList.add('no-scroll');
@@ -30,4 +30,4 @@ modalClose.addEventListener('click', () => {
 modalSend.addEventListener('click', () => {
   modalWindow.style.display = 'none';
   body.classList.remove('no-scroll');
-})
+});
